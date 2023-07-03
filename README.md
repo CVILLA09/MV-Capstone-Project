@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
- <img src="https://github.com/CVILLA09/capstone-project/blob/main/assets/moshed.jpg" alt="logo" width="120px" height="120px" />
+  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.jpg" alt="logo" width="180"  height="auto" />
   <br/>
 
-  <h1><b>Welcome!</b></h1>
+   <h1><b>Welcome!</b></h1>
 
 </div>
 

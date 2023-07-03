@@ -4,7 +4,7 @@
   <img src="https://github.com/CVILLA09/capstone-project/blob/main/assets/moshed.gif" alt="logo" width="180"  height="auto" />
   <br/>
 
-  <h1><b>Welcome to my capstone project</b></h1>
+  <h1><b>Welcome!</b></h1>
 
 </div>
 

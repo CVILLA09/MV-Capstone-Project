@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.jpg" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.jpg" alt="logo" width="180"  height="auto" />
   <br/>
 
   <h1><b>Welcome to my project 😃</b></h1>

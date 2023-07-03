@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="[murple_logo.png](https://drive.google.com/file/d/1_TgciZeqkx1qzWYnAixkKRmeygQvPkio/view?usp=sharing)" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h1><b>Welcome to my project 😃</b></h1>

@@ -121,15 +121,15 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Salimer/RLCS-event-template.git
-  cd Portfolio
+  git clone https://github.com/CVILLA09/capstone-project.git
+  cd capstone-project
 ```
 
 using Ubuntu:
 
 ```sh
   cd my-desired-folder
-  git clone https://github.com/Salimer/RLCS-event-template.git
+  git clone https://github.com/CVILLA09/capstone-project.git
 ```
 
 For more information on how to clone or fork a repository:
@@ -175,7 +175,7 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 
 
-👤 **Salim Bamahfoodh**
+👤 **Cristian Villa**
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 - LinkedIn: [Cristian Villa](https://www.linkedin.com/in/cristian-villa-5b518127b/)

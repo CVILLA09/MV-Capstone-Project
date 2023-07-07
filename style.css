@@ -411,18 +411,18 @@
   }  
   
   /* Partners Section */
-.partners__section {
+.partners-section {
     background-color: #424146;
     margin-top: -40px;
   }
   
-  .partners__section__container {
+  .partners-section-container {
     max-width: 350px;
     margin: 0 auto;
     padding-top: 40px;
   }
   
-  .partners__section__title {
+  .partners-section-title {
     position: relative;
     font-size: 26px;
     color: #fff;
@@ -432,7 +432,7 @@
     margin-bottom: 30px;
   }
   
-  .partners__section__title::before {
+  .partners-section-title::before {
     content: '';
     position: absolute;
     height: 1px;
@@ -442,7 +442,7 @@
     background-color: var(--secondary-color);
   }
   
-  .partner__images__container {
+  .sponsors-logo-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -451,7 +451,7 @@
     padding-bottom: 40px;
   }
   
-  .partner__images__container figure {
+  .sponsors-logo-container figure {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -461,7 +461,7 @@
     height: 140px; /* Adjust the size as needed */
   }
   
-  .partner__images__container img {
+  .sponsors-logo-container img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -469,44 +469,588 @@
   }  
   
   /* Footer Section */
-  .footer__section {
-    background-color: rgba(247, 247, 248, 0.99)
+.footer {
+  background-color: rgba(247, 247, 248, 0.99)
+}
+
+.footerContainer {
+  max-width: 350px;
+  max-height: 160px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}  
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.logoImage {
+  width: 30vw; /* Adjust the size as needed */
+  height: 20vh; /* Adjust the size as needed */
+  margin: auto;
+}
+
+.copyrightText {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.legalNotice {
+  display: none;
+}
+
+  
+  /* Media */
+
+  @media screen and (min-width: 768px) {
+
+  /* Header Section */
+
+.header-section {
+  background-color: rgba(247, 247, 248, 0.99)
+}
+
+.top-bar {
+  display: block;
+  background: #424146;
+}
+
+.top-bar-container {
+  display: flex;
+  max-width: 650px;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+  flex-shrink: 0;
+  align-self: stretch;
+  margin-right: 15vw;
+}
+
+.social-media-list,
+.login-bar {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-icon {
+  color: var(--white);
+}
+
+.login-item {
+  color: var(--white);
+  font-family: var(--main-font);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-container {
+  max-width: 100%; /* Allow the container to take up the full width of its parent */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px; /* Add some padding to the sides of the container */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo-image {
+  display: flex;
+  align-items: flex-start;    
+  height: auto; /* Let the image take its natural height */
+  width: 40%; /* Set a percentage width to keep the image responsive */
+  margin-left: 0; /* Remove the negative margin */
+  margin-right: 0; /* Remove the large fixed margin */
+}
+
+.fa-bars {
+  display: none;
+}
+
+.navbar-list {
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: initial;
+  background-color: transparent;
+  padding: 0;
+  justify-content: space-between; /* This will distribute the items evenly across the available space */
+  margin: auto;
+  margin-right: 10vw;
+}
+
+.navbar-list > * {
+  flex: 1; /* This will make each item take up an equal amount of space */
+  text-align: center; /* This will center the text within each item */
+}
+
+.navbar-link {
+  font-size: 16px;
+  color: var(--primary-color);
+  position: relative;
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: var(--orange);
+}
+
+.navbar-link.active {
+  color: var(--orange);
+}
+
+.ticket-item {
+  margin-left: 14px;
+  border: 4px solid var(--orange);
+  padding: 10px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.ticket-item:hover {
+  border: 4px solid var(--primary-color);
+}
+
+.ticket-link {
+  color: var(--orange);
+}
+
+.ticket-link:hover {
+  color: var(--primary-color);
+}
+
+/* End */
+  
+   /* Main Section */
+.main-section {
+  position: relative; /* Add this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-left: 7vw;
+  height: calc(94vh - 110px);
+}
+
+.main-section::before {
+  content: "";
+  position: fixed; /* Change this from absolute to fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url(assets/vineyard.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  z-index: -1; /* Make sure this is below your content */
+}
+
+.content-container {
+  display: flex;
+  width: 100%; /* Set this to a percentage */
+  height: 100%;
+  padding: 2vw; /* Change this to a vw unit */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2vw; /* Change this to a vw unit */
+  box-sizing: border-box;
+}
+
+.welcome-message {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 4vw; /* Change this to a vw unit */
+  width: 80vw;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+}
+
+.title-primary,
+.title-secondary,
+.title-year {
+  font-family: var(--secondary-font);
+  font-size: 9vw; /* Change this to a vw unit */
+  font-weight: 900;
+  background-image: url(assets/wine-glass.png);
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 80vw;
+}
+
+.features {
+  width: 70vw;
+}
+
+.description {
+  display: flex;
+  width: 70vw; /* Keep this as 100% */
+  padding: 2vw; /* Change this to a vw unit */
+  justify-content: center;
+  align-items: center;
+  color: #515151;
+  font-size: 2vw; /* Change this to a vw unit */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5vw; /* Change this to a vw unit */
+  letter-spacing: -0.05vw; /* Change this to a vw unit */
+  background: rgba(247, 247, 248, 0.7);
+  box-sizing: border-box; 
+}
+
+.event-date {
+  display: flex;
+  width: 60vw; /* Change this to a vw unit */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Add this line */
+  color: var(--fifth-color);
+  font-size: 3.5vw; /* Change this to a vw unit */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0.3vw; /* Change this to a vw unit */
+  margin: inherit;
+  margin-top: 5vh;
+}
+
+.event-location {
+  display: flex;
+  width: 70vw; /* Change this to a vw unit */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Add this line */
+  color: var(--fifth-color);
+  font-size: 2.5vw; /* Change this to a vw unit */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: -0.05vw; /* Change this to a vw unit */
+  margin: auto;
+  margin-top: 5vh;
+}    
+  
+    /* Program Section */
+    
+  .program__section::before {
+    background-image: url(assets/wood.png); /* Replace with your desktop image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.12;
+    z-index: 0;
+}
+
+.program__section__title::before {
+    width: 7%;
+    left: 46%;
+}
+
+.program__section__container {
+  max-width: 1200px;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.program__list__container {
+  height: 246px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.program__list__container:hover {
+  border: 2px solid var(--white);
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.program__list__item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program__list__icon {
+  width: 20%;
+}
+
+.program__image__container {
+  width: auto;
+}
+
+.program__list__title {
+  width: auto;
+}
+
+.program__list__paragraph {
+  font-size: 15px;
+  width: auto;
+  padding-right: initial;
+  text-align: center;
+}
+
+.main__program__callToAction {
+  width: 50%;
+  display: none;
+}
+
+.program__message__container {
+  margin-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__program__message {
+  position: relative;
+  display: inline-block;
+  color: var(--third-color);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+  
+    /* Featured Speakers */
+    .featured__speakers__title::before {
+      width: 8%;
+      left: 46%;
+    }
+
+    .featured__speaker__image {
+        width: 180px;
+        height: 220px; /* Add a fixed height */
+        object-fit: cover; /* Preserve the image aspect ratio and fill the container */
+        display: block; /* Ensures the image respects the container's alignment */
+        margin: 0 auto; /* Center the image horizontally */
+      }  
+  
+    .featured__speakers__container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 28px;
+      max-width: 650px;
+      padding-bottom: 40px;
+    }
+  
+    .speakers__button__container {
+      display: none;
+    }
+  
+     /* Partners Section */
+
+  .partners-section-container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding-top: 60px;
   }
 
-  .footer__container {
-    max-width: 350px;
-    max-height: 160px;
-    margin: 0 auto;
-    padding: 40px 0;
+  .partners-section-title::before {
+    width: 4%;
+    left: 48%;
+  }
+
+  .sponsors-logo-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }  
-  
-  .footer__logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--primary-color);
+    justify-content: center; /* Change to center the items */
+    flex-wrap: wrap; /* Add this line to wrap the items if necessary */
+    gap: 50px;
+    width: 100%; /* Change to 100% to fill the container width */
+    padding-bottom: 60px;
+  }
+
+  .sponsor-logo {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .sponsor-logo:hover {
+    transform: scale(1.2);
   }
   
-  .footer__logo__img {
-    width: 30vw; /* Adjust the size as needed */
-    height: 20vh; /* Adjust the size as needed */
+    /* Footer Section */
+.footerContainer {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.logoImage {
+    width: 10vw; /* Adjust the size as needed */
+    height: 15vh; /* Adjust the size as needed */
     margin: auto;
+}
+
+.infoContainer {
+    margin-right: 7vw;
+}
+
+.legalNotice {
+  display: block;
+  font-size: 16px;
+}
+
   }
+    /* End*/ 
   
-  .footer__copy {
+  @media screen and (min-width: 1024px) {
+    /* Header Section */
+    .top__bar__container {
+      max-width: 900px;
+    }
+  
+    .header__container {
+      max-width: 900px;
+    }
+  
+    .navbar__container {
+      gap: 24px;
+    }
+  
+    /* Main Section */
+    .main__container {
+      max-width: 900px;
+    }
+  
+    .main__message {
+      font-size: 46px;
+    }
+  
+    .main__title__one,
+    .main__title__two,
+    .main__title__three {
+      font-size: 56px;
+    }
+  
+    .main__features {
+      width: 80%;
+    }
+  
+    /* Featured Speakers */
+    .featured__speakers__title {
+      padding-top: 80px;
+    }
+  
+    .featured__speakers__container {
+      max-width: 900px;
+      padding-bottom: 80px;
+    }
+  
+   }
+  
+    @media screen and (min-width: 1440px) {
+    /* Header Section */
+    .top__bar__container {
+      max-width: 1200px;
+    }
+  
+    .header__container {
+      max-width: 1200px;
+    }
+  
+    .navbar__container {
+      gap: 80px;
+    }
+  
+    /* End */
+  
+  /* Main Section */
+.content-container {
+  max-width: 1200px;
+}
+
+.welcome-message {
+  font-size: 54px;
+}
+
+.title-primary,
+.title-secondary,
+.title-year {
+  font-size: 66px;
+}
+
+.features {
+  width: 72%;
+}
+
+.description {
+    display: flex;
+    width: 50vw;
+    padding: 36.325px 29.739px 35.231px 29.738px;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    font-weight: 700;
-    color: var(--primary-color);
-  }
+    font-family: var(--main-font);
+    line-height: 25px;
+    letter-spacing: -0.5px;
+}
   
-  .footer__description {
-    display: none;
-  }
+    /* End */
   
-  /* END */
   
+    /* Featured Speakers */
+    .featured__speakers__title::before {
+      width: 4%;
+      left: 48%;
+    }
+  
+    .featured__speakers__container {
+      max-width: 1200px;
+      gap: 80px;
+    }
+  
+    .featured__speaker__image {
+      width: 210px;
+    }
+  
+    .featured__speaker__name {
+      font-size: 18px;
+    }
+  
+    .featured__speaker__profession {
+      font-size: 16px;
+    }
+  
+    .featured__speaker__description {
+      font-size: 17px;
+    }
+
+    /* End */
+    }
+    

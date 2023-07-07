@@ -180,12 +180,12 @@
 }
   
   /* Program Section */
-  .program__section {
+  .program-section {
     position: relative; /* Add relative positioning to the container */
     background-color: var(--primary-color);
   }
   
-  .program__section::before {
+  .program-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -199,7 +199,7 @@
     opacity: 0.12; /* Adjust the opacity as desired */
   }  
   
-  .program__section__container {
+  .program-section-container {
     max-width: 350px;
     margin: 0 auto;
     display: flex;
@@ -208,7 +208,7 @@
     gap: 10px;
   }
   
-  .program__section__title {
+  .program-section-title {
     position: relative;
     font-size: 26px;
     color: var(--white);
@@ -219,7 +219,7 @@
     margin-bottom: 30px;
   }
   
-  .program__section__title::before {
+  .program-section-title::before {
     content: '';
     position: absolute;
     height: 1px;
@@ -229,7 +229,7 @@
     background-color: var(--secondary-color);
   }
   
-  .program__list__container {
+  .program-list-container {
     list-style: none;
     background-color: rgba(211, 211, 211, 0.22);
     padding: 10px;
@@ -237,13 +237,13 @@
     display: flex;
   }
   
-  .program__list__item {
+  .program-list-item {
     display: flex;
     align-items: center;
     gap: 6px;
   }
   
-  .program__list__icon {
+  .program-list-icon {
     font-size: 40px;
     color: #fff;
     width: 15%;
@@ -256,14 +256,14 @@
     width: 60px;
   }
   
-  .program__list__title {
+  .program-list-title {
     color: var(--secondary-color);
     font-size: 15px;
     width: 26%;
     text-align: center;
   }
   
-  .program__list__paragraph {
+  .program-list-paragraph {
     color: #fff;
     font-size: 13px;
     line-height: 1.6;
@@ -271,12 +271,12 @@
     padding-right: 2px;
   }
   
-  .program__button__container {
+  .program-button-container {
     display: flex;
     justify-content: center;
   }
   
-  .main__program__callToAction {
+  .program-call-to-action {
     margin-top: 30px;
     width: 75%;
     padding: 16px 20px;
@@ -289,7 +289,7 @@
     margin-bottom: 40px;
   }
   
-  .main__program__message {
+  .main-program-message {
     display: none;
   }  
   
@@ -764,7 +764,7 @@
   
     /* Program Section */
     
-  .program__section::before {
+  .program-section::before {
     background-image: url(assets/wood.png); /* Replace with your desktop image */
     background-size: cover;
     background-repeat: no-repeat;
@@ -773,18 +773,18 @@
     z-index: 0;
 }
 
-.program__section__title::before {
+.program-section-title::before {
     width: 7%;
     left: 46%;
 }
 
-.program__section__container {
+.program-section-container {
   max-width: 1200px;
   flex-direction: row;
   gap: 4px;
 }
 
-.program__list__container {
+.program-list-container {
   height: 246px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -792,13 +792,13 @@
   z-index: 1;
 }
 
-.program__list__container:hover {
+.program-list-container:hover {
   border: 2px solid var(--white);
   margin-right: 0.5vw;
   margin-left: 0.5vw;
 }
 
-.program__list__item {
+.program-list-item {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -806,7 +806,7 @@
   justify-content: center;
 }
 
-.program__list__icon {
+.program-list-icon {
   width: 20%;
 }
 
@@ -814,30 +814,30 @@
   width: auto;
 }
 
-.program__list__title {
+.program-list-title {
   width: auto;
 }
 
-.program__list__paragraph {
+.program-list-paragraph {
   font-size: 15px;
   width: auto;
   padding-right: initial;
   text-align: center;
 }
 
-.main__program__callToAction {
+.program-call-to-action {
   width: 50%;
   display: none;
 }
 
-.program__message__container {
+.program-message-container {
   margin-top: 30px;
   padding-bottom: 80px;
   display: flex;
   justify-content: center;
 }
 
-.main__program__message {
+.main-program-message {
   position: relative;
   display: inline-block;
   color: var(--third-color);

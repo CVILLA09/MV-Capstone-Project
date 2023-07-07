@@ -155,9 +155,9 @@ For example, for Google Chrome with Ubuntu:
 
 There are no test available for this project.
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To deploy this project, use any web hosting service.
+### Deployment
 
 This project is deployed using [GitHub Pages](https://pages.github.com/). 
 
@@ -165,15 +165,9 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
-
-
 
 👤 **Cristian Villa**
 
@@ -186,7 +180,7 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 - Improve responsiveness
 
-- Add more webpages such as Webstore
+- Add more webpages such as a web store
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -544,13 +544,14 @@ hr {
   }
 
   .header-container {
-    max-width: 100%; /* Allow the container to take up the full width of its parent */
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 5vw 0 5vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 80px;
-    padding: 0 20px; /* Add some padding to the sides of the container */
+    padding: 0 20px;
+    gap: 10vw;
   }
 
   .logo-link {
@@ -563,10 +564,9 @@ hr {
   .logo-image {
     display: flex;
     align-items: flex-start;
-    height: auto; /* Let the image take its natural height */
-    width: 40%; /* Set a percentage width to keep the image responsive */
-    margin-left: 0; /* Remove the negative margin */
-    margin-right: 0; /* Remove the large fixed margin */
+    height: max-content; /* Let the image take its natural height */
+    width: 10vw; /* Set a percentage width to keep the image responsive */
+    margin-right: -2vw;
   }
 
   .fa-bars {
@@ -584,6 +584,7 @@ hr {
     justify-content: space-between; /* This will distribute the items evenly across the available space */
     margin: auto;
     margin-right: 10vw;
+    gap: 2vw;
   }
 
   .navbar-list > * {
@@ -656,23 +657,23 @@ hr {
   }
 
   .content-container {
-    display: flex;
+    display: absolute;
     width: 100%; /* Set this to a percentage */
-    height: 100%;
-    padding: 2vw; /* Change this to a vw unit */
+    max-height: 100%;
+    padding: 1vw; /* Change this to a vw unit */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 2vw; /* Change this to a vw unit */
-    box-sizing: border-box;
-  }
+    z-index: 1;
+}
 
   .welcome-message {
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: 4vw; /* Change this to a vw unit */
-    width: 80vw;
+    font-size: 3.5vw; /* Change this to a vw unit */
+    width: 60vw;
     font-weight: 300;
     color: #fff;
     margin: 0;
@@ -682,7 +683,7 @@ hr {
   .title-secondary,
   .title-year {
     font-family: var(--secondary-font);
-    font-size: 9vw; /* Change this to a vw unit */
+    font-size: 8vw; /* Change this to a vw unit */
     font-weight: 900;
     background-image: url(assets/wine-glass.png);
     background-position: center;
@@ -699,7 +700,7 @@ hr {
   .description {
     display: flex;
     width: 70vw; /* Keep this as 100% */
-    padding: 2vw; /* Change this to a vw unit */
+    padding: 2.5vw; /* Change this to a vw unit */
     justify-content: center;
     align-items: center;
     color: #515151;
@@ -915,95 +916,99 @@ hr {
 /* End */
 
 @media screen and (min-width: 1024px) {
+
   /* Header Section */
-  .top__bar__container {
-    max-width: 900px;
-  }
 
-  .header__container {
-    max-width: 900px;
-  }
-
-  .navbar__container {
-    gap: 24px;
+  .header-container {
+    max-width: 100%;
+    margin: 0 5vw 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 20px;
+    gap: 20vw;
   }
 
   /* Main Section */
-  .main__container {
-    max-width: 900px;
+  .main-section {
+    height: 100%;
   }
 
-  .main__message {
-    font-size: 46px;
-  }
-
-  .main__title__one,
-  .main__title__two,
-  .main__title__three {
-    font-size: 56px;
-  }
-
-  .main__features {
-    width: 80%;
-  }
-
-  /* Featured Speakers */
-  .featured__speakers__title {
-    padding-top: 80px;
-  }
-
-  .featured__speakers__container {
-    max-width: 900px;
-    padding-bottom: 80px;
-  }
+  .content-container {
+    display: flex;
+    width: 70%; /* Set this to a percentage */
+    max-height: 50%;
+    padding: 1vw; /* Change this to a vw unit */
+    flex-shrink: 1;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
-@media screen and (min-width: 1440px) {
-  /* Header Section */
-  .top__bar__container {
-    max-width: 1200px;
-  }
+.welcome-message {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 1.5vw; /* Change this to a vw unit */
+  width: 50vw;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+}
 
-  .header__container {
-    max-width: 1200px;
-  }
+.title-primary,
+.title-secondary,
+.title-year {
+  font-family: var(--secondary-font);
+  font-size: 3.5vw; /* Change this to a vw unit */
+  font-weight: 900;
+  width: 80vw;
+}
 
-  .navbar__container {
-    gap: 80px;
-  }
+.features {
+  width: 70vw;
+}
 
-  /* End */
+.description {
+  display: flex;
+  width: 40vw; /* Keep this as 100% */
+  padding: 1vw; /* Change this to a vw unit */
+  font-size: 1.2vw; /* Change this to a vw unit */
+}
 
-  /* Main Section */
-  .content-container {
-    max-width: 1200px;
-  }
+.event-date {
+  display: flex;
+  width: 60vw; /* Change this to a vw unit */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Add this line */
+  color: var(--fifth-color);
+  font-size: 1.8vw; /* Change this to a vw unit */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0.3vw; /* Change this to a vw unit */
+  margin: inherit;
+  margin-top: 2vh;
+}
 
-  .welcome-message {
-    font-size: 54px;
-  }
-
-  .title-primary,
-  .title-secondary,
-  .title-year {
-    font-size: 66px;
-  }
-
-  .features {
-    width: 72%;
-  }
-
-  .description {
-    display: flex;
-    width: 50vw;
-    padding: 36.325px 29.739px 35.231px 29.738px;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: var(--main-font);
-    line-height: 25px;
-    letter-spacing: -0.5px;
-  }
+.event-location {
+  display: flex;
+  width: 70vw; /* Change this to a vw unit */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Add this line */
+  color: var(--fifth-color);
+  font-size: 1.2vw; /* Change this to a vw unit */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: -0.05vw; /* Change this to a vw unit */
+  margin: auto;
+  margin-top: 3vh;
+}
 
   /* Featured Speakers */
   .featured__speakers__title::before {

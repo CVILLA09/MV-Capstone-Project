@@ -574,13 +574,14 @@ hr {
   }
 
   .header-container {
-    max-width: 100%; /* Allow the container to take up the full width of its parent */
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 5vw 0 5vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 80px;
-    padding: 0 20px; /* Add some padding to the sides of the container */
+    padding: 0 20px;
+    gap: 20vw;
   }
 
   .logo-link {
@@ -593,10 +594,9 @@ hr {
   .logo-image {
     display: flex;
     align-items: flex-start;
-    height: auto; /* Let the image take its natural height */
-    width: 40%; /* Set a percentage width to keep the image responsive */
-    margin-left: 0; /* Remove the negative margin */
-    margin-right: 0; /* Remove the large fixed margin */
+    height: max-content; /* Let the image take its natural height */
+    width: 10%; /* Set a percentage width to keep the image responsive */
+    margin-right: -2vw;
   }
 
   .fa-bars {
@@ -614,6 +614,7 @@ hr {
     justify-content: space-between; /* This will distribute the items evenly across the available space */
     margin: auto;
     margin-right: 10vw;
+    gap: 2vw;
   }
 
   .navbar-list > * {

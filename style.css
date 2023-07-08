@@ -657,7 +657,7 @@ hr {
   }
 
   .content-container {
-    display: absolute;
+    display: flex;
     width: 100%; /* Set this to a percentage */
     max-height: 100%;
     padding: 1vw; /* Change this to a vw unit */
@@ -666,7 +666,7 @@ hr {
     align-items: flex-start;
     gap: 2vw; /* Change this to a vw unit */
     z-index: 1;
-}
+  }
 
   .welcome-message {
     display: flex;
@@ -916,7 +916,6 @@ hr {
 /* End */
 
 @media screen and (min-width: 1024px) {
-
   /* Header Section */
 
   .header-container {
@@ -943,72 +942,72 @@ hr {
     flex-shrink: 1;
     margin-top: 5vh;
     margin-bottom: 5vh;
-}
+  }
 
-.welcome-message {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: 1.5vw; /* Change this to a vw unit */
-  width: 50vw;
-  font-weight: 300;
-  color: #fff;
-  margin: 0;
-}
+  .welcome-message {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.5vw; /* Change this to a vw unit */
+    width: 50vw;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+  }
 
-.title-primary,
-.title-secondary,
-.title-year {
-  font-family: var(--secondary-font);
-  font-size: 3.5vw; /* Change this to a vw unit */
-  font-weight: 900;
-  width: 80vw;
-}
+  .title-primary,
+  .title-secondary,
+  .title-year {
+    font-family: var(--secondary-font);
+    font-size: 3.5vw; /* Change this to a vw unit */
+    font-weight: 900;
+    width: 80vw;
+  }
 
-.features {
-  width: 70vw;
-}
+  .features {
+    width: 70vw;
+  }
 
-.description {
-  display: flex;
-  width: 40vw; /* Keep this as 100% */
-  padding: 1vw; /* Change this to a vw unit */
-  font-size: 1.2vw; /* Change this to a vw unit */
-}
+  .description {
+    display: flex;
+    width: 40vw; /* Keep this as 100% */
+    padding: 1vw; /* Change this to a vw unit */
+    font-size: 1.2vw; /* Change this to a vw unit */
+  }
 
-.event-date {
-  display: flex;
-  width: 60vw; /* Change this to a vw unit */
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Add this line */
-  color: var(--fifth-color);
-  font-size: 1.8vw; /* Change this to a vw unit */
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 0px;
-  letter-spacing: 0.3vw; /* Change this to a vw unit */
-  margin: inherit;
-  margin-top: 2vh;
-}
+  .event-date {
+    display: flex;
+    width: 60vw; /* Change this to a vw unit */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Add this line */
+    color: var(--fifth-color);
+    font-size: 1.8vw; /* Change this to a vw unit */
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0.3vw; /* Change this to a vw unit */
+    margin: inherit;
+    margin-top: 2vh;
+  }
 
-.event-location {
-  display: flex;
-  width: 70vw; /* Change this to a vw unit */
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Add this line */
-  color: var(--fifth-color);
-  font-size: 1.2vw; /* Change this to a vw unit */
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 0px;
-  letter-spacing: -0.05vw; /* Change this to a vw unit */
-  margin: auto;
-  margin-top: 3vh;
-}
+  .event-location {
+    display: flex;
+    width: 70vw; /* Change this to a vw unit */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Add this line */
+    color: var(--fifth-color);
+    font-size: 1.2vw; /* Change this to a vw unit */
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: -0.05vw; /* Change this to a vw unit */
+    margin: auto;
+    margin-top: 3vh;
+  }
 
   /* Featured Speakers */
   .featured__speakers__title::before {

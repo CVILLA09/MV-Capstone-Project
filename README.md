@@ -82,7 +82,7 @@ I created a responsive Food and Wine Festival website using HTML, CSS, and JavaS
 ## 🤯 Walk through video <a name="walk-through"></a>
 
 
-- [here](link)
+- [Loom video walk through in here!](https://www.loom.com/share/22d73c45ae4845848c2c2a24caca0f84?sid=926ee0ad-68be-48d6-baa4-989290bcd165)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

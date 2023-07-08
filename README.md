@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.svg" alt="logo" width="180"  height="auto" />
+  <img src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/moshed.svg" alt="logo" width="180"  height="auto" />
   <br/>
 
    <h1><b>Welcome!</b></h1>
@@ -10,7 +10,7 @@
 
 
 <div align="center">
-  <img width="923" alt="Screenshot" src="">
+  <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup1.jpeg">
   <br/>
 <h1 align="center">Name of the project</h1>
 </div>
@@ -49,7 +49,7 @@
 # 📖 [Capstone Project] <a name="about-project"></a>
 
 
-**Capstone project desciption, [check out this loom recording.](link)
+** I created a responsive Food and Wine Festival website using HTML, CSS, and JavaScript. The website showcases all the exciting details of the festival with the main & about web page. I followed design guidelines to ensure an attractive layout and with DOM manipulation in JavaScript, I added interactive features to enhance the user experience. This project allowed me to apply best practices in web development and demonstrate my skills to potential employers. Also make sure to [check out this loom recording.](link)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,11 +71,10 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Landing Page for activities**
+- **Landing Page for Program Activities**
 - **Mobile first development**
-- **Responsiveness and flexibility for any screen size**
-- **Fast access to social media and other ways of contact**
-- **Easy to the eyes and cultivating at the same time**
+- **Responsiveness and flexibility for any screen size*
+- **Interactive effects to make it more appealing**
 - **Dynamic creation of content** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -94,7 +93,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](livelink)
+- [Live Demo Link](https://cvilla09.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,13 +142,6 @@ There is no installation required.
 ### Usage
 
 To run the project, open with **index.html** with any web browser.
-
-For example, for Google Chrome with Ubuntu:
-
-```sh
-  cd capstone-project
-  
-```
 
 ### Run tests
 
@@ -215,8 +207,6 @@ Give a ⭐️ if you like this project!
 <!-- FAQ (optional) 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 

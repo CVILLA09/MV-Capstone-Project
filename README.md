@@ -1,8 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/moshed.svg" alt="logo" width="180"  height="auto" />
-  <br/>
 
    <h1><b>Welcome!</b></h1>
 
@@ -228,3 +226,7 @@ This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<div align="center">
+<img src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/moshed.svg" alt="logo" width="180"  height="auto" />
+</div>

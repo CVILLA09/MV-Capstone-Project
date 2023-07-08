@@ -62,7 +62,7 @@ I created a responsive Food and Wine Festival website using HTML, CSS, and JavaS
   </ul>
 </details>
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
@@ -133,6 +133,8 @@ For more information on how to clone or fork a repository:
 - <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">How to clone a repo</a>
 - <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">How to fork a repo</a>
 
+
+
 ### Install
 
 There is no installation required.
@@ -157,12 +159,14 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Cristian Villa**
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 - LinkedIn: [Cristian Villa](https://www.linkedin.com/in/cristian-villa-5b518127b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 

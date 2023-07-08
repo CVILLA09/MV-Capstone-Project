@@ -2,7 +2,7 @@
 
 <div align="center">
 
-   <h1><b>Welcome!</b></h1>
+   <h1><b>Welcome to my capstone-project!</b></h1>
 
 </div>
 
@@ -10,7 +10,7 @@
 <div align="center">
   <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup1.jpeg">
   <br/>
-<h1 align="center">Name of the project</h1>
+<h1 align="center">Food & Wine Festival Website</h1>
 </div>
 
 

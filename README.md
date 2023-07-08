@@ -8,7 +8,7 @@
 
 
 <div align="center">
-  <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup1.jpeg">
+  <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup2.jpeg">
   <br/>
 <h1 align="center">Food & Wine Festival Website</h1>
 </div>
@@ -22,18 +22,18 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🤯 Walk through video ](#walk-through)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Built With](#built-with)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🤯 Walk through video ](#walk-through)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+- [Setup](#setup)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Usage](#usage)
+- [Run tests](#run-tests)
+- [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)

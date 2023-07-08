@@ -1,22 +1,17 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://github.com/CVILLA09/capstone-project/blob/mobile-first/assets/moshed.svg" alt="logo" width="180"  height="auto" />
-  <br/>
 
-   <h1><b>Welcome!</b></h1>
+   <h1><b>Welcome to my Capstone Project:</b></h1>
 
 </div>
 
 
 <div align="center">
-  <img width="923" alt="Screenshot" src="">
+  <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup2.jpeg">
   <br/>
-<h1 align="center">Name of the project</h1>
+<h1 align="center">🍽️🍷🍇 Food & Wine Festival Website 🍇🍷🍽️</h1>
 </div>
-
-
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -24,18 +19,18 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🤯 Walk through video ](#walk-through)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Built With](#built-with)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🤯 Walk through video ](#walk-through)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+- [Setup](#setup)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Usage](#usage)
+- [Run tests](#run-tests)
+- [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -46,10 +41,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project] <a name="about-project"></a>
+# 📖 About the project: <a name="about-project"></a>
 
 
-**Capstone project desciption, [check out this loom recording.](link)
+I created a responsive Food and Wine Festival website using HTML, CSS, and JavaScript. The website showcases all the exciting details of the festival with the main & about web page. I followed design guidelines to ensure an attractive layout and with DOM manipulation in JavaScript, I added interactive features to enhance the user experience. This project allowed me to apply best practices in web development and demonstrate my skills to potential employers. Also make sure to [check out this loom recording.](link)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,18 +59,17 @@
   </ul>
 </details>
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **Landing Page for activities**
+- **Landing Page for Program Activities**
 - **Mobile first development**
 - **Responsiveness and flexibility for any screen size**
-- **Fast access to social media and other ways of contact**
-- **Easy to the eyes and cultivating at the same time**
+- **Interactive effects to make it more appealing**
 - **Dynamic creation of content** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,7 +79,7 @@
 ## 🤯 Walk through video <a name="walk-through"></a>
 
 
-- [here](link)
+- [Loom video walk through in here!](https://www.loom.com/share/22d73c45ae4845848c2c2a24caca0f84?sid=926ee0ad-68be-48d6-baa4-989290bcd165)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +88,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](livelink)
+- [Live Demo Link](https://cvilla09.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,6 +130,8 @@ For more information on how to clone or fork a repository:
 - <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">How to clone a repo</a>
 - <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">How to fork a repo</a>
 
+
+
 ### Install
 
 There is no installation required.
@@ -144,20 +140,13 @@ There is no installation required.
 
 To run the project, open with **index.html** with any web browser.
 
-For example, for Google Chrome with Ubuntu:
-
-```sh
-  cd capstone-project
-  
-```
-
 ### Run tests
 
 There are no test available for this project.
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To deploy this project, use any web hosting service.
+### Deployment
 
 This project is deployed using [GitHub Pages](https://pages.github.com/). 
 
@@ -165,20 +154,16 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
-
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **Cristian Villa**
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 - LinkedIn: [Cristian Villa](https://www.linkedin.com/in/cristian-villa-5b518127b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
@@ -186,7 +171,7 @@ Go to [🚀 Live Demo](#live-demo) to check it out.
 
 - Improve responsiveness
 
-- Add more webpages such as Webstore
+- Add more webpages such as a web store
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +198,7 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-- Templete used in project provided by (Microverse).
+- Template used in project provided by <img src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/61b33c641028e40f097ca160_microverse-nav-logo-170.png" width="108" height="18">.
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -221,8 +206,6 @@ Give a ⭐️ if you like this project!
 <!-- FAQ (optional) 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
@@ -240,7 +223,11 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<div align="center">
+<img src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/moshed.svg" alt="logo" width="180"  height="auto" />
+</div>

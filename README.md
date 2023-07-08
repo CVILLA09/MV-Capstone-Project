@@ -71,7 +71,7 @@ I created a responsive Food and Wine Festival website using HTML, CSS, and JavaS
 
 - **Landing Page for Program Activities**
 - **Mobile first development**
-- **Responsiveness and flexibility for any screen size*
+- **Responsiveness and flexibility for any screen size**
 - **Interactive effects to make it more appealing**
 - **Dynamic creation of content** 
 

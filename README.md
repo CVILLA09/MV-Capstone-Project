@@ -2,7 +2,7 @@
 
 <div align="center">
 
-   <h1><b>Welcome to my capstone-project!</b></h1>
+   <h1><b>Welcome to my Capstone Project:</b></h1>
 
 </div>
 
@@ -44,7 +44,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project] <a name="about-project"></a>
+# 📖 [Food & Wine Festival Website] <a name="about-project"></a>
 
 
 ** I created a responsive Food and Wine Festival website using HTML, CSS, and JavaScript. The website showcases all the exciting details of the festival with the main & about web page. I followed design guidelines to ensure an attractive layout and with DOM manipulation in JavaScript, I added interactive features to enhance the user experience. This project allowed me to apply best practices in web development and demonstrate my skills to potential employers. Also make sure to [check out this loom recording.](link)

@@ -10,7 +10,7 @@
 <div align="center">
   <img width="923" alt="Screenshot" src="https://github.com/CVILLA09/capstone-project/blob/feature-mobile-desktop/assets/mockup2.jpeg">
   <br/>
-<h1 align="center">Food & Wine Festival Website</h1>
+<h1 align="center">🍽️🍷🍇 Food & Wine Festival Website 🍇🍷🍽️</h1>
 </div>
 
 

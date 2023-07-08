@@ -123,7 +123,6 @@
   background-image: url(assets/wine-glass.png);
   background-position: center;
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -688,7 +687,6 @@ hr {
     background-image: url(assets/wine-glass.png);
     background-position: center;
     background-size: cover;
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 80vw;
